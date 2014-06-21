@@ -1,0 +1,391 @@
+/* Main Page setup
+-------------------------------------------------- */
+html,body {
+	height:100%;
+	background-color:#DEDEDE;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height:100%;
+	height:auto;
+/* Negative indent footer by its height */
+	margin:0 auto -60px;
+/* Pad bottom by footer height */
+	padding:0 0 60px;
+}
+/* THE CAROUSEL
+-------------------------------------------------- */
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.carousel, .item, .active {
+	height:100%;
+}
+.carousel-inner {
+	height:100%;
+}
+.carousel {
+	margin-bottom: 60px;
+}
+.carousel-caption {
+	z-index: 10;
+}
+.carousel .item {
+	background-color: #777;
+}
+.carousel .carousel-inner .bg {
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+	background-image:url(bg1.jpg);
+	background-position: center top; 
+}
+.carousel .carousel-inner .bg2 {
+	background-image:url(bg2.jpg);
+	background-position: center center; 
+}
+.carousel .carousel-inner .bg3 {
+	background-image:url(bg3.jpg);
+	background-position: center bottom; 
+}
+.centerContent {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.centerContent .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.centerContent h2 {
+  font-weight: normal;
+}
+.centerContent .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+#wrap > .container {
+	padding:60px 15px 0;
+}
+
+.container .text-muted {
+	margin:20px 0;
+}
+
+#footer {
+	background-color:transparent;
+    z-index: 1030;
+}
+
+#footer > .container {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.text-block {
+	padding:40px 15px;
+	text-align:center;
+}
+
+.Dashboard{
+    padding-left: 0px;
+}
+
+/* signin CSS
+-------------------------------------------------- */
+.form-signin {
+	max-width:330px;
+	padding:15px;
+	margin:0 auto;
+}
+
+.form-signin .form-signin-heading {
+	margin-bottom:10px;
+}
+
+.form-signin .form-control {
+	position:relative;
+	font-size:16px;
+	height:auto;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index:2;
+}
+.single-input {
+	margin-bottom:10px;
+}
+.top-input {
+	margin-bottom:-1px;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+
+.bottom-input {
+	margin-bottom:10px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+}
+
+.form-text {
+	text-align:center;
+}
+.btn-space{
+    margin-top: 15px;
+}
+
+/* Sidebar navigation
+-------------------------------------------------- */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    /*background-color: #f5f5f5;*/
+    background-color:#f8f8f8;
+    border-right: 3px solid #e7e7e7;
+  }
+  
+  .Dashboard{
+    padding-left: 100px;
+  }
+}
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+.nav-sidebar > .active > a{
+    background-color: transparent;
+    color: #333;
+}
+.nav > li > a{
+    color: #333;
+}
+.on{
+    background-color: #5cb85c;
+}
+
+.off{
+    background-color: #d9534f;
+}
+/* Dashboard Main
+-------------------------------------------------- */
+.main {
+  padding: 60px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+.well{
+    background-color: #ffffff;
+}
+.ant-well{
+    background-color: #f5f5f5;
+    border-color: #e3e3e3;
+}
+.ant-well:hover{
+    border-color: black;
+}
+a.well-link:link{
+    text-decoration: none;
+    background-color: #555555;
+    color: #555555;
+}
+a.well-link:visited{
+  text-decoration:  none;
+  color: #555555;
+} 
+a.well-link:hover{
+  text-decoration:  none;
+  background-color: #555555;
+  color: #555555;
+  } 
+a.well-link:active{
+  text-decoration:  none;
+  background-color: #555555;
+  color: #555555;
+  }
+#RGB {
+    height: 20px;
+    background: rgb(128, 128, 128);
+}
+#RC .slider-selection {
+    background: #FF8282;
+}
+#RC .slider-handle {
+    background: red;
+}
+#GC .slider-selection {
+    background: #428041;
+}
+#GC .slider-handle {
+    background: green;
+}
+#BC .slider-selection {
+    background: #8283FF;
+}
+#BC .slider-handle {
+    border-bottom-color: blue;
+}
+#R, #G, #B {
+    width: 300px;
+}
+.primary{
+    background-color: #6AB8E0;
+}
+/* Icon CSS
+-------------------------------------------------- */
+.icon{
+    border-radius: 100%;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.icon .fa-facebook{
+    line-height: inherit;
+    font-size: x-large;
+}
+
+.facebook{
+    background-color: #4863ae;
+}
+.icon .fa-twitter{
+    line-height: inherit;
+    font-size: x-large;
+}
+
+.twitter{
+    background-color: #46c0fb;
+}
+.icon .fa-envelope{
+    line-height: inherit;
+    font-size: x-large;
+}
+.gmail{
+    background-color: #db4038;
+}
+.icon .fa-google-plus{
+    line-height: inherit;
+    font-size: x-large;
+}
+.googleplus{
+    background-color: #dd4a38;
+}
+.icon .fa-calendar{
+    line-height: inherit;
+    font-size: x-large; 
+}
+.googlecalendar{
+    background-color: #4e6cf7;
+}
+.icon .fa-cloud{
+    line-height: inherit;
+    font-size: x-large;    
+}
+.googledrive{
+    background-color: #EEB211;
+}
+.btn-googledrive{
+    background-color: transparent;
+    border-color: #EEB211;
+    color: #EEB211;
+}
+.btn-googledrive:hover ,.btn-googledrive:focus ,.btn-googledrive:active ,.btn-googledrive.active {
+    background-color:#EEB211;
+    color:white;
+}
+.icon .wi-day-sunny-overcast{
+    line-height: inherit; 
+    font-size: x-large;   
+}
+.icon .fa-dropbox{
+    line-height: inherit;
+    font-size: x-large;    
+}
+.dropbox{
+    background-color: #007ee5;
+}
+.weather{
+    background-color: #60af00;
+}
+.cube{
+    background-color: #00C5EE;
+}
+.cubes{
+    background-color: #00C5EE;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+}
+.icon .fa-cube{
+    line-height: inherit;
+    font-size: x-large;    
+}
+.icon .fa-cubes{
+    line-height: inherit;
+    font-size: 90px;    
+}
+.icon .fa-question{
+    line-height: inherit;
+    font-size: 90px; 
+}
+.icon .fa-arrow-right{
+    line-height: inherit;
+    font-size: 90px; 
+}
+.icon .fa-user{
+    line-height: inherit;
+    font-size: 90px; 
+}
+.icon .fa-users{
+    line-height: inherit;
+    font-size: 90px; 
+}
+/* Settings page CSS
+-------------------------------------------------- */
+.settings-well{
+    background-color: #f5f5f5;
+    border-color: #e3e3e3;
+}
+/* Old CSS
+-------------------------------------------------- */

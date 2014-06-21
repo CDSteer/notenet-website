@@ -1,0 +1,26 @@
+var Code = {
+	SUCCESS : 0,
+
+	// User codes
+	NO_SUCH_USER         : 101,
+	INVALID_PASSWORD     : 102,
+	INVALID_EMAIL        : 103,
+	INVALID_ACCESS_TOKEN : 104,
+	USER_EXISTS          : 105,
+	BRUTE_ATTACK         : 106,
+	PASSWORD_MISMATCH    : 107,
+	EMAIL_IN_USE         : 108,
+	USERNAME_IN_USE      : 109,
+
+	// Device codes
+	DEVICE_REGISTER_SUCCESS   : 200,
+	NO_SUCH_DEVICE            : 201,
+	INVALID_DEVICE            : 202,
+	CANT_CONNECT_TO_DEVICE    : 203,
+	DEVICE_ALREADY_REGISTERED : 204,
+	DEVICE_REMOVE_SUCCESS     : 205,
+	INVALID_DEVICE_ID         : 206,
+
+	// Code codes
+	NO_CODE : 900
+};

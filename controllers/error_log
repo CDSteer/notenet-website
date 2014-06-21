@@ -1,0 +1,9 @@
+[13-Jun-2014 22:24:17 Europe/London] PHP Fatal error:  Call to undefined function nc_script() in /home/nothingp/public_html/NoteCube/controllers/foot.php on line 1
+[13-Jun-2014 22:24:48 Europe/London] PHP Fatal error:  Call to undefined function nc_script() in /home/nothingp/public_html/NoteCube/controllers/foot.php on line 1
+[13-Jun-2014 22:24:58 Europe/London] PHP Fatal error:  Call to undefined function nc_script() in /home/nothingp/public_html/NoteCube/controllers/foot.php on line 1
+[13-Jun-2014 22:25:01 Europe/London] PHP Fatal error:  Call to undefined function nc_href() in /home/nothingp/public_html/NoteCube/controllers/footer.php on line 4
+[13-Jun-2014 22:27:55 Europe/London] PHP Fatal error:  Call to undefined function nc_href() in /home/nothingp/public_html/NoteCube/controllers/footer.php on line 4
+[13-Jun-2014 22:28:17 Europe/London] PHP Fatal error:  Call to undefined function nc_stylesheet() in /home/nothingp/public_html/NoteCube/controllers/head.php on line 10
+[13-Jun-2014 22:28:17 Europe/London] PHP Fatal error:  Call to undefined function nc_stylesheet() in /home/nothingp/public_html/NoteCube/controllers/head.php on line 10
+[13-Jun-2014 22:28:39 Europe/London] PHP Fatal error:  Call to undefined function nc_stylesheet() in /home/nothingp/public_html/NoteCube/controllers/head.php on line 10
+[13-Jun-2014 22:28:40 Europe/London] PHP Fatal error:  Call to undefined function nc_stylesheet() in /home/nothingp/public_html/NoteCube/controllers/head.php on line 10
